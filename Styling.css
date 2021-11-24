@@ -1,0 +1,48 @@
+.Box
+{
+
+    width: auto;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 3em;
+   
+} 
+
+.Line{
+    width: auto;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 3em;
+}
+
+.name{
+    margin: 1.5em;
+
+}
+
+.Mail {
+    margin: 1.5em;
+}
+
+.lastname {
+    margin: 1.5em;
+}
+
+.username {
+   margin: 1.5em;
+
+}
+
+.password {
+    margin: 1.5em;
+}
+
+.date {
+    margin: 1.5em;
+
+}
+
+.number {
+    margin: 1.5em;
+}
+
+h1{ color: black;}
+

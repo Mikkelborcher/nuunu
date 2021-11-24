@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styling.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Make Profile</h1>
+
+        <form action=""></form>
+        <div class="name">
+            <label for="First name">First name</label>
+                <input>
+        </div>
+
+        <div class="lastname">
+            <Label for="Last Name">Last name</Label>
+                <Input>
+
+        </div>
+
+        <div class="Mail">
+            <label for="Mail">Email</label>
+                <input type="email">
+        </div>
+
+        <div class="Box">
+
+        </div>
+
+            <div class="username">
+            <Label for="username">username</Label>
+                <input>
+            </div>
+
+        <div class="password">
+            <label for="Password">Password</label>
+                <Input>
+
+
+        </div>
+
+        <div class="Line"></div>
+
+        <div class="date">
+            <label for="date of birth">Date of birth</label>
+                <input type="date">
+
+        </div>
+        <div class="number">
+            <Label>Phone number</Label>
+            <input type="number">
+        </div>
+
+
+    <div id="results"></div>
+    <a href="/inndex.html">back to form</a>
+    <script>
+        const resultsList = document.getElementById('results')
+        new URLSearchParams (window.location.search). forEach((value,name)
+            => { resultsList.append('§{name} : §{value}')
+            resultsList.append(document.createElement('br'))
+            })
+
+
+
+    </script>
+    
+</body>
+</html>
