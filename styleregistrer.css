@@ -10,7 +10,7 @@ h1 {
 }
 
 .login {
-    margin-top: 5em;
+    margin-top: 2em;
 }
 
 label {
@@ -27,7 +27,31 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
   }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 /* BUTTON CSS */
+
+.backbutton {
+    width: 5em;
+    height: 2em;
+    background-color:#FFF9F4;
+    box-shadow: none;
+}
+
+.button__text--backbutton,
+.button__icon--backbutton {
+    display: inline-flex;
+    align-items: center;
+    padding: 0px;
+    height: 100%;
+}
+
+.backbutton img {
+    max-width: 50%;
+}
 
 .buttons {
     display: block;
