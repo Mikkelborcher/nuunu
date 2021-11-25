@@ -10,15 +10,15 @@ header {
   text-align: center;
   color: white;
   border-radius: 0px 0px 30px 30px;
-  height: 8em;
+  height: 6em;
 }
 
 /* Main */
 
 h1 {
   text-align: center;
-  margin-top: 0%;
   padding: 1.5em;
+  margin-top: 0%;
 }
 
 main {
@@ -52,7 +52,7 @@ h3 {
 
 .main__title {
   background-color: #e3c4bc;
-  margin-top: 2em;
+  margin-top: 1em;
   display: flex;
   height: 2em;
   border-radius: 20px 20px 0px 0px;
@@ -61,7 +61,7 @@ h3 {
   box-shadow: 5px 0px #c4b5b1;
 }
 
-.forumicon {
+.icon {
   max-width: 50%;
   max-height: 50%;
   margin-top: 5px;
@@ -82,4 +82,29 @@ h3 {
 .main__draft--text {
   margin: 0%;
   opacity: 50%;
+}
+
+/* Footer */
+
+footer {
+  background-color: #e3c4bc;
+  color: white;
+  padding: 1em;
+}
+
+.footer__img {
+  display: flex;
+  justify-content: space-evenly;
+  height: 37px;
+}
+
+.footer__text {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0%;
+}
+
+.footer__text--position {
+  margin: 0%;
+  margin-top: 3px;
 }
