@@ -1,112 +1,113 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 1em;
-    background-color: #FFF9F4;
+  font-family: "Roboto", sans-serif;
+  margin: 1em;
+  background-color: #fff9f4;
 }
 
 h1 {
-    text-align: center;
-    margin-top: 2em;
+  text-align: center;
+  margin-top: 2em;
 }
 
 .login {
-    margin-top: 2em;
+  margin-top: 2em;
 }
 
 label {
-    font-size: 20px;
-    font-weight: 500;
+  font-size: 20px;
+  font-weight: 500;
 }
 
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-  }
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
 
 header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* BUTTON CSS */
 
 .backbutton {
-    width: 5em;
-    height: 2em;
-    background-color:#FFF9F4;
-    box-shadow: none;
+  width: 5em;
+  height: 2em;
+  background-color: #fff9f4;
+  box-shadow: none;
 }
 
 .button__text--backbutton,
 .button__icon--backbutton {
-    display: inline-flex;
-    align-items: center;
-    padding: 0px;
-    height: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding: 0px;
+  height: 100%;
 }
 
 .backbutton img {
-    max-width: 50%;
+  max-width: 50%;
 }
 
 .buttons {
-    display: block;
-    margin-left: 1.5em;
+  display: block;
+  margin-left: 1.5em;
 }
 
 .login__position {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 button {
-    height: 55px;
-    padding: 0;
-    border: none;
-    outline: none;
-    border-radius: 1em;
-    overflow: hidden;
-    font-size: 16px;
-    font-weight: 500;
-    width: 300px;
-    box-shadow: 0px 5px #92A69C;
-    margin-top: 1em;
-    font-family: 'Roboto', sans-serif;
-    background-color: #B3CBBF;
+  height: 55px;
+  padding: 0;
+  border: none;
+  outline: none;
+  border-radius: 1em;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 500;
+  width: 300px;
+  box-shadow: 0px 5px #92a69c;
+  margin-top: 1em;
+  font-family: "Roboto", sans-serif;
+  background-color: #b3cbbf;
 }
 
 .button__text,
 .button__icon {
-    display: inline-flex;
-    align-items: center;
-    padding: 0 18px;
-    height: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 18px;
+  height: 100%;
 }
 
 .logingoogle {
-    display: inline-flex;
-    margin-top: 2em;
-    background-color: #FF5151;
-    border-radius: 1em;
-    color: white;
-    box-shadow: 0px 5px #D14242;
-    margin-left: auto;
+  display: inline-flex;
+  margin-top: 2em;
+  background-color: #ff5151;
+  border-radius: 1em;
+  color: white;
+  box-shadow: 0px 5px #d14242;
+  margin-left: auto;
 }
 
 .loginfacebook {
-    display: inline-flex;
-    margin-top: 2em;
-    background-color: #4495FF;
-    border-radius: 1em;
-    color: white;
-    box-shadow: 0px 5px #377AD1;
+  display: inline-flex;
+  margin-top: 2em;
+  background-color: #4495ff;
+  border-radius: 1em;
+  color: white;
+  box-shadow: 0px 5px #377ad1;
 }
 
 p {
-    position: relative;
-    top: 1em;
-    text-align: center;
+  position: relative;
+  top: 1em;
+  text-align: center;
 }
