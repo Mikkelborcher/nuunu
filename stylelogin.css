@@ -86,3 +86,10 @@ p {
     top: 1em;
     text-align: center;
 }
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
